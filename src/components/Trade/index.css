@@ -1,0 +1,21 @@
+.arrs{
+    display: flex;
+    flex-direction: row;
+}
+.crdl{
+    width: 990px;
+    height: 467px;
+    background-color: rgba(235, 245, 254, 0.879);
+    margin: 15px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+.k{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(5, 104, 170);
+}

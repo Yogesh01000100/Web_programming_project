@@ -1,0 +1,147 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1110px;
+}
+.colsp{
+  background-color: #75b3f933;
+}
+.nav-links{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.pot{
+  margin-top: 25px;
+}
+.nav-links:hover{
+  background-color: #3298f292;
+  border-radius: 10px;
+  transition: all 0.2s ease-out;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .crds {
+    width: 100%;
+    text-align: center;
+  }
+
+  .vb {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .lopi {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .pol {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-description {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .pol {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 0;
+  }
+
+  .pol {
+    margin-bottom: 20px;
+  }
+
+  .feture_card {
+    flex-direction: column;
+  }
+
+  .vs {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+.roll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feture_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vs{
+  margin-left: 35px;
+}
+.fet_crd{
+  font-size: 60px;
+}
+.crds{
+  width:fit-content;
+
+}
+.vb{
+  margin-left: 205px;
+}
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0;
+  text-align: center;
+}
+.lopi{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 29px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 13px;
+  margin-left: 190px;
+  font-weight: bold;
+
+}
+
+
+.shop-now-button {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+}
+.pol{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+  margin-bottom: 100px;
+}
+

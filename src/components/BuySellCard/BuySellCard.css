@@ -1,0 +1,135 @@
+/* BuySellCard.css */
+
+.buysell-card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+  width: 500px;
+  height: 450px;
+  margin: 10px;
+}
+
+.buysell-card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.m{
+  margin-top: 10px;
+}
+.olm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.buysell-card p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.buy-button{
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.sell-button {
+  background-color: #d12121;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.select-container select {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.coin-select {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #555;
+  width: 100px;
+}
+.k{
+  display: flex;
+}
+.dob{
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.coin-select option {
+  background-color: #fff;
+  color: #555;
+}
+
+.coin-select option:hover {
+  background-color: #f5f5f5;
+}
+
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.quantity-input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 70px;
+}
+
+.quantity-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
